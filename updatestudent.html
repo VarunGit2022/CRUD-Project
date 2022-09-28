@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+<h4>Update Student</h4>
+   <div class="row">
+    <div class="col-sm-4">
+     <form action="", method = "POST">
+     {% csrf_token %}
+     {{form.as_p}}
+     <input type = "submit", class= "btn btn-success", value="update">
+     <input type = "submit", class= "btn btn-success", value="Back To Home">
+     </form>
+    </div>
+{% endblock content%}
