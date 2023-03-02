@@ -10,7 +10,7 @@ To run this project on your local machine, follow the instructions below:
 
 2. Navigate to the project directory: cd crud-django
 
-3.Create a virtual environment: python -m venv env
+3. Create a virtual environment: python -m venv env
 
 4. Activate the virtual environment: source env/bin/activate
 
