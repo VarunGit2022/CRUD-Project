@@ -1,59 +1,37 @@
 Introduction:
+
 This is a CRUD (Create, Read, Update, and Delete) project in Django. It is designed to demonstrate the basic functionality of a web application using Django framework. In this project, users can perform basic CRUD operations on a database of items.
 
 Getting Started:
+
 To run this project on your local machine, follow the instructions below:
 
-1. Clone the project to your local machine using the command:
+1. Clone the project to your local machine using the command: git clone https://github.com/yourusername/crud-django.git
 
-Copy code
-git clone https://github.com/yourusername/crud-django.git
+2. Navigate to the project directory: cd crud-django
 
-2. Navigate to the project directory:
+3.Create a virtual environment: python -m venv env
 
-Copy code
-cd crud-django
+4. Activate the virtual environment: source env/bin/activate
 
-3.Create a virtual environment:
+5. Install the required packages: pip install -r requirements.txt
 
-Copy code
-python -m venv env
+6. Create a local database by running the following commands: python manage.py makemigrations, python manage.py migrate(just after the makemigrationns command)
 
-4. Activate the virtual environment:
+7. Create a superuser: python manage.py createsuperuser
 
-Copy code
-source env/bin/activate
-
-5. Install the required packages:
-
-Copy code
-pip install -r requirements.txt
-
-6. Create a local database by running the following commands:
-
-Copy code
-python manage.py makemigrations
-python manage.py migrate
-
-7. Create a superuser:
-
-Copy code
-python manage.py createsuperuser
-
-8. Start the development server:
-
-Copy code
-python manage.py runserver
+8. Start the development server: python manage.py runserver
 
 9. Access the application by navigating to http://localhost:8000 in your web browser.
 
 10. Functionality:
+
 This application allows users to:
 
---> Create items by providing a title and description.
---> View a list of all items in the database.
---> Update an existing item's title or description.
---> Delete an existing item.
+1. Create items by providing a title and description.
+2. View a list of all items in the database.
+3. Update an existing item's title or description.
+4. Delete an existing item.
 
 Technology Stack:
 
