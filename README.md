@@ -2,7 +2,7 @@ Introduction:
 
 This is a CRUD (Create, Read, Update, and Delete) project in Django. It is designed to demonstrate the basic functionality of a web application using Django framework. In this project, users can perform basic CRUD operations on a database of items.
 
-This is how our application looks like:
+This is how our application does look like:
 
 ![image](https://user-images.githubusercontent.com/114444753/222390138-af3f025c-0c0a-4c50-96c2-874c87ae011c.png)
 
